@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px;
+    justify-content: flex-start;
+}
+
+.imagem-logo {
+    height: 65px;
+    width: 105px;
+    margin: 5px 50px 0px 125px;
+    
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    
+}
+
+.cabecalho-menu-item {
+    font-family: 'Sarala', sans-serif;
+    color: #03305A;
+    font-weight: 700;
+    font-size: 14px;
+    align-items: center;
+    
+}
+
+.cabecalho-menu-item-entrar{
+    font-family: 'Sarala', sans-serif;
+    color: #03305A;
+    font-weight: 700;
+    font-size: 14px;
+    margin: 5px 50px 5px 200px;
+}
+
+.menu-item-botao {
+    font-family: 'Sarala', sans-serif;
+    display: flex;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 6px;
+    border: 14px solid #03305A;
+    background: #03305A;
+    box-shadow: 0px 1px 2px -1px rgba(0, 0, 0, 0.10), 0px 1px 3px 0px rgba(0, 0, 0, 0.10);
+    margin: 5px 5px 5px 25px;
+}
+
+.conteudo {
+    border-top: 0.4px solid #03305A;
+}
+
+.conteudo-principal {
+    display: flex;
+    align-items: center;
+    
+}
+
+.conteudo-banner {
+    height: 355px;
+    width: 1348px;
+    margin: 125px 10px 25px 90px;
+}
+
+.conteudo-parte-dois {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Noto Sans', sans-serif;
+    color: #03305A;
+    font-size: 17px;
+    font-weight: 400px;
+    margin: 80px 5px 35px 230px; 
+    
+}
+
+.conteudo-secundario-escrito-subtitulo {
+    color: #6B7280;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 16px 5px 15px 0px; 
+}
+
+.conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 5px 100px 5px 90px;
+    align-content: center;
+}
+
+.imagem-card {
+    height: 100px;
+    width: 100px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}

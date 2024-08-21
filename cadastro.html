@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <title>Cadastro</title>
+   <link rel="shortcut icon" href="IMG/logo dog.jpeg" type="image/x-icon">
+</head>
+
+<body>
+   <div class='container'>
+      <div class='card' id="card-cadastro">
+         <h1> Cadastre-se </h1>
+         <div class="label-float">
+            <input type="text" id="nome" placeholder="" required>
+            <label id="labelNome" for="nome">Nome</label>
+         </div>
+
+         <div class="label-float">
+            <input type="text" id="sobrenome" placeholder="" required>
+            <label id="labelsobrenome" for="sobrenome">Sobrenome</label>
+         </div>
+
+         <div class="label-float">
+            <input type="email" id="email" placeholder=" " required>
+            <label id="labelemail" for="email">E-mail</label>
+         </div>
+
+         <div class="label-float">
+            <input type="tel" id="number" placeholder="" required>
+            <label id="labelnumber" for="number">Celular</label>
+         </div>
+
+         <div class="label-float">
+            <input type="cep" id="cep" placeholder="" required>
+            <label id="labelcep" for="cep">CEP</label>
+         </div>
+
+         <div class="label-float">
+            <input type="password" id="senha" placeholder=" " required>
+            <label id="labelSenha" for="senha">Senha</label>
+         </div>
+
+         <div class="label-float">
+            <input type="password" id="confirmSenha" placeholder=" " required>
+            <label id="labelConfirmSenha" for="confirmSenha">Confirmar Senha</label>
+            <i id="verConfirmSenha" class="fa fa-eye" aria-hidden="true"></i>
+         </div>
+
+         <div class="gender-inputs">
+            <div class="gender-title">
+               <h6>Gênero</h6>
+            </div>
+
+            <div class="gender-group">
+               <div class="gender-input">
+                  <input id="female" type="radio" name="gender">
+                  <label for="female">Feminino</label>
+               </div>
+
+               <div class="gender-input">
+                  <input id="male" type="radio" name="gender">
+                  <label for="male">Masculino</label>
+               </div>
+
+               <div class="gender-input">
+                  <input id="others" type="radio" name="gender">
+                  <label for="others">Outros</label>
+               </div>
+               
+               <div class="gender-input">
+                  <input id="none" type="radio" name="gender">
+                  <label for="none">Prefiro não dizer</label>
+               </div>
+            </div>
+            <div class='justify-center'>
+               <button onclick='cadastrar()'>Cadastrar</button>
+            </div>
+            <div class="no-acc">
+               <p> Já tem uma conta?
+               <a href='enter.html'> Entrar </a>
+            </div>
+         </div>
+      </div>
+      <script src="script.js"></script>
+</body>
+
+</html>
